@@ -8,46 +8,47 @@ body { background: cornflowerblue
 }
 .octodex{
     display: flex; 
+    width: 1000px;
+    justify-content: space-between;
 }
 .octocat > a > img{
     width: 300px;
+    border: 1px solid rgb(182, 97, 97);
+    border-radius: 4px;
 }
 ul {
     padding:0;
     list-style:none;
 }
-img-container {
+/* img-container {
     float: left;
     width: 20.33%; 
     padding: 5px; 
-  }
+  } */
 
-img {
-    border: 1px solid rgb(182, 97, 97);
-    border-radius: 4px;
+.authors > li > a > img {
+    
     padding: 5px;
     width: 20px;
   }
-
+/* 
   
   image.right {
     float: right;
     width: 200px;
     border: 3px solid #73AD21;
     padding: 10px;
-  }
+  } */
   .clearfix {
     overflow: auto;
   }
-  img {
+  
 
-    width 40%;
-  }
-
-  #menu-outer {
-	height: 84px;
+  #menu- outer {
+    height:
 	background: url(images/bar-bg.jpg) repeat-x;
-}
+                    
+      }
 
 .table {
 	display: table;   /* Allow the centering to work */
@@ -63,14 +64,20 @@ ul#horizontal-list {
 		display: inline;
     }
     
- .octodex { 
-    display: flex;
-    flex-wrap: nowrap;
-}
-.image-footer, .image-caption {
+ span{
+   color: #ccc;
+ }
+ a{
+   text-decoration: none;
+   color: black;
+   margin: 0 4px;
+ }
+.image-footer {
     display:flex;
 }
-
+  .image-caption{
+    display: flex;
+  }
 .image-footer {
     justify-content: space-between;
 }
